@@ -45,7 +45,8 @@ MACHINES = \
 	sof-icl-dmic-4ch.tplg \
 	sof-apl-src-pcm512x.tplg \
 	sof-cml-rt5682.tplg \
-	sof-cnl-nocodec.tplg
+	sof-cnl-nocodec.tplg \
+	sof-apl-keyword-detect.tplg
 
 # Uncomment the following line if you want to debug conf files
 .PRECIOUS: %.conf
