@@ -15,6 +15,7 @@ include(`sof/tokens.m4')
 
 # Include bxt DSP configuration
 include(`platform/intel/bxt.m4')
+include(`platform/intel/intel-generic-dmic.m4')
 
 #
 # Define the pipelines
