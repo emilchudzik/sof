@@ -41,7 +41,7 @@ PIPELINE_PCM_ADD(sof/pipe-passthrough-capture.m4,
 
 # Passthrough capture pipeline using max channels defined by CHANNELS.
 # Schedule 48 frames per 1000us deadline on core 0 with priority 0
-PIPELINE_PCM_ADD(sof/pipe-passthrough-capture.m4,
+PIPELINE_PCM_ADD(sof/pipe-passthrough-capture_16k.m4,
 	DMIC_PIPELINE_16_ID, DMIC_DAI_LINK_16_ID, CHANNELS, s16le,
 	48, 1000, 0, 0)
 
